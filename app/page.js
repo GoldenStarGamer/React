@@ -71,12 +71,12 @@ function DaButton() {
 		)
 	}
 
-		return (
-			<>
-				<button onClick={handleClick}>
-					Clicked {count} times
-				</button>
-				<ClickText/>
-			</>
-		);
-	}
+	return (
+		<>
+			<button onClick={handleClick}>
+				Clicked {count} times
+			</button>
+			<ClickText/>
+		</>
+	);
+}
